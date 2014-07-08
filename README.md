@@ -22,12 +22,10 @@ tail -f /dev/tty.usbmodem1411
 
 (Change your serial interface accordingly. `ino serial` will guess it for you.)
 
-After running the previous `stty` command, you can send commands to the board manually using:
+After running the previous `stty` command, you can send commands to the board manually using one of the following:
 ```
 cat commands.txt > /dev/tty.usbmodem1411
-or
 echo "test" > /dev/tty.usbmodem1411
-
 ```
 
 ## Wiring
@@ -47,6 +45,5 @@ Connect Output of Matrix 1 to Input of Matrix 2, including +5V and GND.
 7 	DATA 	Connect to pin 7 of the Arduino
 13 	GND 	Connect to pin GND of the Arduino
 14 	+5V 	Connect to pin 5V of the Arduino
-
 ```
 
