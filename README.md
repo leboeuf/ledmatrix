@@ -2,7 +2,7 @@
 
 This is an Arduino project aimed at driving a pair of **Sure Electronics DE-DP14211 P7.62 32X16 RG Bicolor LED Dot Matrix** boards. These boards use an **Holtec HT1632C** controller.
 
-Based on the [HT1632C library](https://code.google.com/p/ht1632c/). Tested with an Arduino Uno R3.
+Based on the [HT1632C library](https://github.com/wildstray/ht1632c). Tested with an Arduino Uno R3.
 
 ## Installation
 
