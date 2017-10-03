@@ -39,11 +39,10 @@ Connect Output of Matrix 1 to Input of Matrix 2, including +5V and GND.
 | 2  4  6  8 10 12 14 16 |
 +------------------------+
 
-1 	CS 		Connect to pin 5 of the Arduino
-2	CLK		Connect to pin 4 of the Arduino
-5 	WR 		Connect to pin 6 of the Arduino
-7 	DATA 	Connect to pin 7 of the Arduino
-13 	GND 	Connect to pin GND of the Arduino
-14 	+5V 	Connect to pin 5V of the Arduino
+1      CS      Connect to pin 5 of the Arduino
+2      CLK     Connect to pin 4 of the Arduino
+5      WR      Connect to pin 6 of the Arduino
+7      DATA    Connect to pin 7 of the Arduino
+13     GND     Connect to pin GND of the Arduino
+14     +5V     Connect to pin 5V of the Arduino
 ```
-
